@@ -26,7 +26,7 @@ const Welcome = ({ navigation, strings: { general: { start }, welcome: { title, 
       <OnboardingHeader hideLogo />
 
       <View style={{ alignItems: 'center', paddingHorizontal: 40 }}>
-        <Icon source={require('../../assets/onboarding/israeliMinistryOfHealthLogo.png')} width={134} height={80} customStyles={{ marginBottom: 25 }} />
+        <Icon source={require('../../assets/onboarding/tracovidLogo.png')} width={134} height={80} customStyles={{ marginBottom: 25 }} />
         <Text style={styles.title} bold>{title}</Text>
         <Text style={styles.subTitle}>{subTitle1}</Text>
         <Text bold>{subTitle2}</Text>

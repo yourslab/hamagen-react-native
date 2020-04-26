@@ -7,6 +7,9 @@ export const IS_IOS: boolean = Platform.OS === 'ios';
 export const HIT_SLOP: Insets = { top: 10, bottom: 10, left: 10, right: 10 };
 export const VERSION_NAME: string = DeviceInfo.getVersion();
 
+// API
+export const API_ROOT = 'https://8ncdscqo1d.execute-api.ap-southeast-1.amazonaws.com';
+
 // Dimensions
 const isIPhoneXSize: boolean = Dimensions.get('window').height === 812 || Dimensions.get('window').width === 812;
 const isIPhoneXrSize: boolean = Dimensions.get('window').height === 896 || Dimensions.get('window').width === 896;

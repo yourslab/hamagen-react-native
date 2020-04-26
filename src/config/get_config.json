@@ -1,5 +1,5 @@
 {
-  "com.hamagen.dev": "https://matrixdemos.blob.core.windows.net/mabar/config.json",
-  "com.hamagen.qa": "https://matrixdemos.blob.core.windows.net/mabar/config.json",
-  "com.hamagen": "https://gisweb.azureedge.net/config.json"
+  "com.hamagen.dev": "https://8ncdscqo1d.execute-api.ap-southeast-1.amazonaws.com/tracovidGetConfigDev",
+  "com.hamagen.qa": "https://8ncdscqo1d.execute-api.ap-southeast-1.amazonaws.com/tracovidGetConfigDev",
+  "com.hamagen": "https://8ncdscqo1d.execute-api.ap-southeast-1.amazonaws.com/tracovidGetConfigDev"
 }

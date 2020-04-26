@@ -53,7 +53,7 @@ const LocationIOS = ({ navigation, strings: { locationIOS: { title, subTitle1, s
       <View style={{ alignItems: 'center' }}>
         <Text bold>{subTitle2}</Text>
 
-        <Icon source={require('../../assets/onboarding/locationTutorial.png')} width={SCREEN_WIDTH - 50} height={106} customStyles={{ marginVertical: 25 }} />
+        <Icon source={require('../../assets/onboarding/locationTutorial.png')} width={SCREEN_WIDTH - 40} height={200} customStyles={{ marginVertical: 25 }} />
 
         <TouchableOpacity onPress={() => Linking.openURL('app-settings:')}>
           <View style={{ flexDirection: isRTL ? 'row-reverse' : 'row', alignItems: 'center', paddingHorizontal: IS_SMALL_SCREEN ? 20 : 0 }}>

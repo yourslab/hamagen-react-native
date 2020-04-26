@@ -30,7 +30,7 @@ const ScanHomeHeader = ({ isRTL, strings: { scanHome: { noData, hasData, exposur
       }
 
       <View style={{ flex: 1, justifyContent: 'center' }}>
-        <Icon source={require('../../assets/onboarding/israeliMinistryOfHealthLogo.png')} width={80} height={40} />
+        <Icon source={require('../../assets/onboarding/tracovidLogo.png')} width={80} height={40} />
       </View>
 
       <View style={styles.subContainer}>
