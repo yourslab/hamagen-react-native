@@ -48,7 +48,7 @@
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		06C33C418EB6D49AE30A90FC /* Pods-hamagen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hamagen.debug.xcconfig"; path = "Target Support Files/Pods-hamagen/Pods-hamagen.debug.xcconfig"; sourceTree = "<group>"; };
 		131CC6753E7C105B2A685B62 /* Pods-codeAgainstCorona.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codeAgainstCorona.release.xcconfig"; path = "Target Support Files/Pods-codeAgainstCorona/Pods-codeAgainstCorona.release.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* המגן.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "המגן.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* המגן.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tracovid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = codeAgainstCorona/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = codeAgainstCorona/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -74,11 +74,11 @@
 		D52A57B3241E29B800521B22 /* SimplerPro_V3-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SimplerPro_V3-Bold.otf"; path = "../../src/assets/fonts/SimplerPro_V3-Bold.otf"; sourceTree = "<group>"; };
 		D52A57B8241E4EF500521B22 /* codeAgainstCorona-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "codeAgainstCorona-Bridging-Header.h"; sourceTree = "<group>"; };
 		D52A57B9241E4EF500521B22 /* Fix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fix.swift; sourceTree = "<group>"; };
-		D52A57D524203FBB00521B22 /* המגן QA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "המגן QA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D52A57D524203FBB00521B22 /* המגן QA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tracovid QA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D52A57D72420403100521B22 /* Info-qa.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-qa.plist"; path = "codeAgainstCorona/Info-qa.plist"; sourceTree = "<group>"; };
 		D52A57D92420404900521B22 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "GoogleService-Info.plist"; path = "codeAgainstCorona/firebase/qa/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		D52A57DB2420405800521B22 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "GoogleService-Info.plist"; path = "codeAgainstCorona/firebase/release/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
-		D52A57DD24204EB200521B22 /* המגן QA.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "המגן QA.entitlements"; sourceTree = "<group>"; };
+		D52A57DD24204EB200521B22 /* המגן QA.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Tracovid QA.entitlements"; sourceTree = "<group>"; };
 		D52A57F12422D39600521B22 /* libRNBackgroundFetch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNBackgroundFetch.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5AE4CD7FF26A69806CF4680 /* Pods-hamagen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hamagen.release.xcconfig"; path = "Target Support Files/Pods-hamagen/Pods-hamagen.release.xcconfig"; sourceTree = "<group>"; };
 		D5CC7DC3242357EA007E3977 /* RNBackgroundGeolocation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNBackgroundGeolocation.xcodeproj; path = "../node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation.xcodeproj"; sourceTree = "<group>"; };
@@ -282,7 +282,7 @@
 			);
 			name = "hamagen-qa";
 			productName = codeAgainstCorona;
-			productReference = D52A57D524203FBB00521B22 /* המגן QA.app */;
+			productReference = D52A57D524203FBB00521B22 /* Tracovid QA.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -546,8 +546,8 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hamagen;
-				PRODUCT_NAME = "המגן";
-				PROVISIONING_PROFILE_SPECIFIER = "Hamagen Store";
+				PRODUCT_NAME = "Tracovid";
+				PROVISIONING_PROFILE_SPECIFIER = "Tracovid Store";
 				SWIFT_OBJC_BRIDGING_HEADER = "codeAgainstCorona-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -576,8 +576,8 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hamagen;
-				PRODUCT_NAME = "המגן";
-				PROVISIONING_PROFILE_SPECIFIER = "Hamagen Store";
+				PRODUCT_NAME = "Tracovid";
+				PROVISIONING_PROFILE_SPECIFIER = "Tracovid Store";
 				SWIFT_OBJC_BRIDGING_HEADER = "codeAgainstCorona-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -690,7 +690,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = "המגן QA.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Tracovid QA.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 32;
@@ -711,7 +711,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hamagen.qa;
-				PRODUCT_NAME = "המגן QA";
+				PRODUCT_NAME = "Tracovid QA";
 				PROVISIONING_PROFILE_SPECIFIER = "Hamagen QA Dev";
 				SWIFT_OBJC_BRIDGING_HEADER = "codeAgainstCorona-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -727,7 +727,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = "המגן QA.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Tracovid QA.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 32;
@@ -747,7 +747,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hamagen.qa;
-				PRODUCT_NAME = "המגן QA";
+				PRODUCT_NAME = "Tracovid QA";
 				PROVISIONING_PROFILE_SPECIFIER = "Hamagen QA AdHoc";
 				SWIFT_OBJC_BRIDGING_HEADER = "codeAgainstCorona-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
