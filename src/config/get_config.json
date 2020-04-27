@@ -1,5 +1,5 @@
 {
-  "com.hamagen.dev": "https://8ncdscqo1d.execute-api.ap-southeast-1.amazonaws.com/tracovidGetConfigDev",
-  "com.hamagen.qa": "https://8ncdscqo1d.execute-api.ap-southeast-1.amazonaws.com/tracovidGetConfigDev",
-  "com.hamagen": "https://8ncdscqo1d.execute-api.ap-southeast-1.amazonaws.com/tracovidGetConfigDev"
+  "com.tracovid.dev": "https://8ncdscqo1d.execute-api.ap-southeast-1.amazonaws.com/tracovidGetConfigDev",
+  "com.tracovid.qa": "https://8ncdscqo1d.execute-api.ap-southeast-1.amazonaws.com/tracovidGetConfigDev",
+  "com.tracovid": "https://8ncdscqo1d.execute-api.ap-southeast-1.amazonaws.com/tracovidGetConfigDev"
 }

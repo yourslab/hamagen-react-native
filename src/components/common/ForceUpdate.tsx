@@ -14,7 +14,7 @@ interface Props {
 
 const ForceUpdate = ({ isVisible, shouldForce, strings: { forceUpdate: { title, desc, dontForceDesc } } }: Props) => {
   const appStoreUrl = 'https://itunes.apple.com/us/app/id1503224314?ls=1&mt=8';
-  const playStoreUrl = 'https://play.google.com/store/apps/details?id=com.hamagen';
+  const playStoreUrl = 'https://play.google.com/store/apps/details?id=com.tracovid';
 
   const closeModal = () => store().dispatch({ type: HIDE_FORCE_UPDATE });
 

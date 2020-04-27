@@ -6,9 +6,9 @@ import { Config } from '../types';
 import { API_ROOT } from '../constants/Constants';
 
 // @ts-ignore
-const env: 'com.hamagen.qa'|'com.hamagen' = DeviceInfo.getBundleId();
+const env: 'com.tracovid.qa'|'com.tracovid' = DeviceInfo.getBundleId();
 
-let config: Config = DefaultConfig[env] || DefaultConfig['com.hamagen.qa'];
+let config: Config = DefaultConfig[env] || DefaultConfig['com.tracovid.qa'];
 
 export const initConfig = async () => new Promise(async (resolve) => {
   try {

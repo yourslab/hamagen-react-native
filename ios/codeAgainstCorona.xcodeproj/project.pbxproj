@@ -545,7 +545,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hamagen;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tracovid;
 				PRODUCT_NAME = "Tracovid";
 				PROVISIONING_PROFILE_SPECIFIER = "Tracovid Store";
 				SWIFT_OBJC_BRIDGING_HEADER = "codeAgainstCorona-Bridging-Header.h";
@@ -575,7 +575,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hamagen;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tracovid;
 				PRODUCT_NAME = "Tracovid";
 				PROVISIONING_PROFILE_SPECIFIER = "Tracovid Store";
 				SWIFT_OBJC_BRIDGING_HEADER = "codeAgainstCorona-Bridging-Header.h";
@@ -710,7 +710,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hamagen.qa;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tracovid.qa;
 				PRODUCT_NAME = "Tracovid QA";
 				PROVISIONING_PROFILE_SPECIFIER = "Hamagen QA Dev";
 				SWIFT_OBJC_BRIDGING_HEADER = "codeAgainstCorona-Bridging-Header.h";
@@ -746,7 +746,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hamagen.qa;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tracovid.qa;
 				PRODUCT_NAME = "Tracovid QA";
 				PROVISIONING_PROFILE_SPECIFIER = "Hamagen QA AdHoc";
 				SWIFT_OBJC_BRIDGING_HEADER = "codeAgainstCorona-Bridging-Header.h";

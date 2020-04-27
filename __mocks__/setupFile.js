@@ -121,7 +121,7 @@ jest.mock('../src/config/config.ts', () => {
     locationServiceIgnoreConfidenceThreshold: 80,
     locationServiceIgnoreSampleVelocityThreshold: 2.8,
     locationHistoryIgnoreList: ['should ignore from test'],
-    default: jest.fn(() => originalModule['com.hamagen']),
+    default: jest.fn(() => originalModule['com.tracovid']),
   };
 });
 

@@ -1,5 +1,5 @@
 {
-  "com.hamagen.dev": {
+  "com.tracovid.dev": {
     "dataUrl": "https://8ncdscqo1d.execute-api.ap-southeast-1.amazonaws.com/tracovidGetSickVisits",
     "dataUrl_utc": "https://8ncdscqo1d.execute-api.ap-southeast-1.amazonaws.com/tracovidGetSickVisits",
     "stringsUrl": "https://8ncdscqo1d.execute-api.ap-southeast-1.amazonaws.com/tracovidGetTranslations",
@@ -30,7 +30,7 @@
       "am": "የተከላካይ መተግበሪያ በጀርባ ውስጥ ይሠራል እና እርስዎን ይጠብቃል",
       "ru": "Хамаген бежит в фоновом режиме и защищает тебя",
       "ar": "يعمل تطبيق המגן في الخلفية ويحميك",
-      "fr": "Hamagen court en arrière-plan et vous protège"
+      "fr": "Tracovid court en arrière-plan et vous protège"
     },
     "sickMessage": {
       "he": {
@@ -92,7 +92,7 @@
       "fr": "https://go.gov.il/HAMAGEN-FR"
     }
   },
-  "com.hamagen.qa": {
+  "com.tracovid.qa": {
     "dataUrl": "https://8ncdscqo1d.execute-api.ap-southeast-1.amazonaws.com/tracovidGetSickVisits",
     "dataUrl_utc": "https://8ncdscqo1d.execute-api.ap-southeast-1.amazonaws.com/tracovidGetSickVisits",
     "stringsUrl": "https://8ncdscqo1d.execute-api.ap-southeast-1.amazonaws.com/tracovidGetTranslations",
@@ -119,11 +119,11 @@
     ],
     "androidNotification": {
       "he": "אפליקציית המגן רצה ברקע ומגנה עליך",
-      "en": "Hamagen runs in the background and protects you",
+      "en": "Tracovid runs in the background and protects you",
       "am": "የተከላካይ መተግበሪያ በጀርባ ውስጥ ይሠራል እና እርስዎን ይጠብቃል",
       "ru": "Хамаген бежит в фоновом режиме и защищает тебя",
       "ar": "يعمل تطبيق המגן في الخلفية ويحميك",
-      "fr": "Hamagen court en arrière-plan et vous protège"
+      "fr": "Tracovid court en arrière-plan et vous protège"
     },
     "sickMessage": {
       "he": {
@@ -185,11 +185,11 @@
       "fr": "https://go.gov.il/HAMAGEN-FR"
     }
   },
-  "com.hamagen": {
-    "dataUrl": "https://gisweb.azureedge.net/Points.json",
-    "dataUrl_utc": "https://gisweb.azureedge.net/PointsUtc.json",
-    "stringsUrl": "https://gisweb.azureedge.net/texts.json",
-    "versionsUrl": "https://gisweb.azureedge.net/versions.json",
+  "com.tracovid": {
+    "dataUrl": "https://8ncdscqo1d.execute-api.ap-southeast-1.amazonaws.com/tracovidGetSickVisits",
+    "dataUrl_utc": "https://8ncdscqo1d.execute-api.ap-southeast-1.amazonaws.com/tracovidGetSickVisits",
+    "stringsUrl": "https://8ncdscqo1d.execute-api.ap-southeast-1.amazonaws.com/tracovidGetTranslations",
+    "versionsUrl": "https://8ncdscqo1d.execute-api.ap-southeast-1.amazonaws.com/tracovidGetVersions",
     "sampleDistance": 50,
     "sampleInterval": 900000,
     "fetchMilliseconds": 3600000,
@@ -212,11 +212,11 @@
     ],
     "androidNotification": {
       "he": "אפליקציית המגן רצה ברקע ומגנה עליך",
-      "en": "Hamagen runs in the background and protects you",
+      "en": "Tracovid runs in the background and protects you",
       "am": "የተከላካይ መተግበሪያ በጀርባ ውስጥ ይሠራል እና እርስዎን ይጠብቃል",
       "ru": "Хамаген бежит в фоновом режиме и защищает тебя",
       "ar": "يعمل تطبيق המגן في الخلفية ويحميك",
-      "fr": "Hamagen court en arrière-plan et vous protège"
+      "fr": "Tracovid court en arrière-plan et vous protège"
     },
     "sickMessage": {
       "he": {

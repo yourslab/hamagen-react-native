@@ -46,7 +46,7 @@ https://medium.com/proferosec-osm/hamagen-application-fighiting-the-corona-virus
 Make sure your app is [`debuggable`](https://developer.android.com/guide/topics/manifest/application-element).
 
 ~~~
-$ adb exec-out run-as com.hamagen.dev cat databases/Reactoffline.db > app_db.sqlite
+$ adb exec-out run-as com.tracovid.dev cat databases/Reactoffline.db > app_db.sqlite
 ~~~
 
 ## Debug & Release

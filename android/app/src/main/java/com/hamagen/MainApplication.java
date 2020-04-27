@@ -1,4 +1,4 @@
-package com.hamagen;
+package com.tracovid;
 
 import android.app.Application;
 import android.content.Context;

@@ -1,4 +1,4 @@
-package com.hamagen;
+package com.tracovid;
 
 import android.os.Bundle;
 
