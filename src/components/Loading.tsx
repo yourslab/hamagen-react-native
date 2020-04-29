@@ -6,8 +6,6 @@ import { CardStyleInterpolators, createStackNavigator } from '@react-navigation/
 import _ from 'lodash';
 import AsyncStorage from '@react-native-community/async-storage';
 import moment from 'moment';
-import BackgroundFetch from 'react-native-background-fetch';
-import BackgroundGeolocation, { State } from 'react-native-background-geolocation';
 import Welcome from './Onboarding/Welcome';
 import Location from './Onboarding/Location';
 import LocationIOS from './Onboarding/LocationIOS';
@@ -23,9 +21,8 @@ import { Loader, ChangeLanguage, GeneralWebview, ForceUpdate, ForceTerms } from 
 import { initLocale } from '../actions/LocaleActions';
 import { checkForceUpdate, toggleWebview } from '../actions/GeneralActions';
 import { setExposures } from '../actions/ExposuresActions';
-import { scheduleTask } from '../services/BackgroundService';
 import { onError } from '../services/ErrorService';
-import { purgeSamplesDB, startSampling } from '../services/SampleService';
+import { purgeSamplesDB } from '../services/SampleService';
 import { updateLocationsTimesToUTC } from '../services/LocationService';
 import { startForegroundTimer } from '../services/Tracker';
 import { IntersectionSickDatabase } from '../database/Database';
@@ -117,24 +114,7 @@ const Loading = (
         return setInitialRoute('Welcome');
       }
 
-      BackgroundFetch.status(async (status) => {
-        if (status !== BackgroundFetch.STATUS_AVAILABLE) {
-          await scheduleTask();
-        }
-      });
-
       await purgeSamplesDB();
-
-      const state: State = await BackgroundGeolocation.getState();
-
-      if (!state.enabled) {
-        await startSampling(locale, notificationData);
-      } else if (!state.enableHeadless) {
-        await BackgroundGeolocation.setConfig({
-          enableHeadless: true,
-          foregroundService: true
-        });
-      }
 
       await startForegroundTimer();
 

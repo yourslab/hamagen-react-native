@@ -2,7 +2,6 @@ import geoHash from 'latlon-geohash';
 import AsyncStorage from '@react-native-community/async-storage';
 import AsyncLock from 'async-lock';
 import moment from 'moment';
-import { startLocationTracking } from './LocationService';
 import { UserLocationsDatabase, WifiMacAddressDatabase } from '../database/Database';
 import { sha256 } from './sha256';
 import { getWifiList } from './WifiService';
@@ -23,10 +22,6 @@ import {
 const haversine = require('haversine');
 
 const lock = new AsyncLock();
-
-export const startSampling = async (locale: string, notificationData: NotificationData) => {
-  await startLocationTracking(locale, notificationData);
-};
 
 export const insertDB = async (sample: Sample) => new Promise(async (resolve) => {
   // prevent race condition of entering multiple points at the same time

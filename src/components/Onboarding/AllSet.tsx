@@ -5,10 +5,8 @@ import LottieView from 'lottie-react-native';
 import { useFocusEffect } from '@react-navigation/native';
 import AsyncStorage from '@react-native-community/async-storage';
 import { Text } from '../common';
-import { scheduleTask } from '../../services/BackgroundService';
 import { startForegroundTimer } from '../../services/Tracker';
 import { onError } from '../../services/ErrorService';
-import { startSampling } from '../../services/SampleService';
 import { NotificationData, Strings } from '../../locale/LocaleData';
 import { SCREEN_WIDTH, IS_FIRST_TIME } from '../../constants/Constants';
 
@@ -45,9 +43,7 @@ const AllSet = ({ navigation, strings: { allSet: { allGood } }, locale, notifica
       await AsyncStorage.setItem(IS_FIRST_TIME, 'true');
 
       startForegroundTimer();
-      await startSampling(locale, notificationData);
-      await scheduleTask();
-
+    
       navigation.replace('ScanHome');
     } catch (error) {
       onError({ error });
