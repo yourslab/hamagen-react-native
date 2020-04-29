@@ -123,7 +123,7 @@ const saveToStorage = (key: string, value: number) => new Promise(async (resolve
 });
 
 export const purgeSamplesDB = () => new Promise(async (resolve, reject) => {
-  const NUM_OF_WEEKS_TO_PURGE = 2;
+  const NUM_OF_WEEKS_TO_PURGE = 8;
 
   try {
     await lock.acquire('purgeDB', async (done) => {
